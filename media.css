@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+    /* 2 столбца */
+    .container {
+        padding-top: 50px;
+        justify-content: start;
+        height: auto;
+    }
+    .userOutputContainer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height: auto;
+    }
+    .userOutput {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .userOutputElement {
+        width: 33.33%;
+        border-bottom: 0.5px solid white;
+    }
+    .userOutputElement {
+        border-bottom: 0.5px solid white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        gap: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .userOutputElement {
+        min-width: 100%;
+    }
+}
